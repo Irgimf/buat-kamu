@@ -8,17 +8,19 @@
     <title>Love letter</title>
   </head>
   <body>
-    <meta charset="utf-8">
     <audio id="background-audio" autoplay hidden>
-      <source src="./music/Rahasia Hati.mp3" type="audio/mpeg">
+      <source src="./music/jatuhSuka.mp3" type="audio/mpeg">
     </audio>
+
     <div class="container">  
       <div class="valentines">
         <div class="envelope"></div>
         <div class="front"></div>
         <div class="card">
-          <div class="text">For You</br>Someone</br>I love You!</div>
-          <div class="heart"></div>
+          <div class="text">For Aisa</br>Happy</br>Birthday!!</div>
+          <div class="cake">
+            <img src="cake.png" alt="Birthday Cake">
+          </div>
         </div>
         <div class="hearts">
           <div class="one"></div>
@@ -28,8 +30,50 @@
           <div class="five"></div>
         </div>
       </div>
+      <div class="shadow"></div>
     </div>
-    <div class="shadow"></div>
+
+    <!-- Tambahan Hiasan -->
+    <div class="balloons">
+      <div class="balloon red"></div>
+      <div class="balloon blue"></div>
+      <div class="balloon green"></div>
+    </div>
+
+    <div class="confetti"></div>
+
+    <!-- Tombol Hadiah -->
+    <div class="gift-box" id="giftBox">🎁 Dapatkan Hadiah</div>
+
+    <!-- Area pesan typing -->
+    <div class="message-box" id="messageBox">
+      <p id="typingText"></p>
+      <button id="questButton" style="display:none;">Lihat Quest</button>
+    </div>
+
+    <!-- Wadah pesan tambahan -->
+    <div id="extraMessages"></div>
+
+    <!-- Modal Quest -->
+    <div class="modal" id="questModal">
+      <div class="modal-content quest-style">
+        <button class="close" aria-label="Tutup">&times;</button>
+        <h2>Selesaikan Quest untuk dapat Hadiah</h2>
+
+        <ul class="quest-list">
+          <li>
+            <label><input type="checkbox" id="q1"> Menjadi Fans Chelsea</label>
+          </li>
+          <li>
+            <label><input type="checkbox" id="q2"> Pergi ke Bandung</label>
+          </li>
+        </ul>
+
+        <button id="finishQuest">Selesai</button>
+      </div>
+    </div>
+
+    <!-- Script -->
     <script>
       document.addEventListener('DOMContentLoaded', function() {
         var audio = document.getElementById('background-audio');
