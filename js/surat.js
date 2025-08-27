@@ -18,7 +18,7 @@ $(document).ready(function () {
       $("#messageBox").fadeIn();
 
       let message =
-        "Selamaatt Ulang Tahun Saa!!😍 sedikit pesan untuk orang yang lahirnya samaan tanggal 24 wkwk.. wish u got anything u want, sehat selalu, wish u the best pokoknya.. Makasih buat keseruannya selama ini di rosblok, even we are stranger in rl, jauh beribu km, beda pulau, beda kepercayaankah?🧐, tetapi entah kenapa tiap main ama kamu tuh asik banget ya orangnya wkwkwk.. makasih kepada tuhan telah membuat aisa ini lahir karena dengan kehadirannya yang mampu membuat alam tersenyum tertawa senang dengan kehadiran isa isa ini.. and yup i hope we still contact each other even nanti juga kita pasti punya kesibukan tersendiri.. semangattt untuk berprosesnya yaa cmartt girl... buat hadiahnya ku kasih sebuah quest aja ya wkwkwk, kerjain questnya nanti dapet hadiah spesial pake banget.. dan Selamat Kamu mendapatkan sebuah quest spesial 🎉";
+        "diliat mulu aelahh, udahan yaa ulang tahun ulang tahunannya, quest nya masi nganggur nih dikerjain yaa cmart girll 😚. nangis nih om asep quest🤕 hehe,hmm tpi nyantai ajaa si yaa soalnya ni quest gak terikat ma waktu seperti halnya aku yang masih di masa lalu dan kamu yang suda menjadi masa depan wkwk, klo misalnya takdir juga pasti jadi masa kini jadi keinget red string theory lagi wkwk... whenver you ready i'll be here for giving the special prize. dan Selamat Quest Anda masih bisa Dikerjakan 🥳 ";
 
       let i = 0;
       let speed = 50;
