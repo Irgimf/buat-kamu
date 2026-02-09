@@ -17,8 +17,7 @@ $(document).ready(function () {
       console.log("🎁 GiftBox diklik");
       $("#messageBox").fadeIn();
 
-      let message =
-        "udahan yaa ulang tahun ulang tahunannya, quest nya masi nganggur nih dikerjain yaa cmart girll 😚. nangis nih om asep quest🤕 hehe,hmm tpi nyantai ajaa si yaa soalnya ni quest gak terikat ma waktu seperti halnya aku yang masih di masa lalu dan kamu yang suda menjadi masa depan wkwk, klo misalnya takdir juga pasti jadi masa kini jadi keinget red string theory lagi wkwk... whenver you ready i'll be here for giving the special prize. dan Selamat Quest Anda masih bisa Dikerjakan 🥳 ";
+      let message = "Selamat Mengerjakan Quest 🥳 ";
 
       let i = 0;
       let speed = 50;
